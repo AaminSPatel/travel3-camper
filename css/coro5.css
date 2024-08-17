@@ -1,0 +1,144 @@
+.wrapper{
+    width: 100%;
+    margin: 0;
+}
+ .corosel{
+    height: 100vh;
+    width:100vh;
+    overflow: hidden;
+    background: #713030;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-left: -5px;
+}
+.slider{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  
+}
+.slide{
+    
+    z-index: 17;
+    width: 22%;
+    height: 400px;
+    display: block;
+    justify-content: center;
+    align-items: start; 
+    overflow-y: hidden;
+    position: absolute;
+    left: 0%;
+    transition: left 0.4s,transform 0.5s;
+    filter: drop-shadow( 2px 3px 13px rgb(2, 2, 2));
+    }
+  
+ .a{
+    transform: scale3d(0.8 ,0.8,0.4) ;
+    z-index: 1;
+    left: 0%;
+
+    filter:  saturate(0.7);
+ }  
+  .b{
+    transform: scale3d(0.9 ,0.9,0.8);
+    z-index: 2;
+    filter: saturate(0.95)  ;
+    left: 15%;
+ }  
+  .c{
+    transform: scalex(1.5) scaleY(1.1);
+    z-index: 3;
+    filter:  saturate(1);
+    left: 40%;
+ }  
+  .d{
+    transform: scale3d(0.9 ,0.9,0.8);
+    z-index: 2;
+    filter: saturate(0.95) ;
+    left: 65%;
+ }  
+  .e{
+    transform: scale3d(0.8 ,0.8,0.4);
+    z-index: 1;
+    left: 80%;
+    filter:  saturate(0.7);
+    animation: 1.2s fade ;
+
+ }  
+ @keyframes fade {
+    from{
+        filter: opacity(0);
+    }
+    to{
+        filter: opacity(0.9);
+    }
+ }
+  
+.slide img{
+    width: 100%;
+    height: 400px;
+    overflow-x: hidden;
+    border-radius: 10px;   
+    transition: left 0.6s ease;
+    display: block;
+    
+    
+}
+
+.left,.right{
+    height:auto;
+    width: 85px;
+    border: none;
+    border-radius: 5px;
+    background: #1282e577;
+    padding: 20px;
+    margin:20px 10px;
+    position:relative;
+    left: 44.3%;
+    top: -100px;
+    display:none;
+}
+.nav-dots{
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:500px;
+}
+.nevi{
+    display: inline;
+    background: #e1dddd;
+    padding: 2px;
+    box-shadow: 1px 1px 4px rgba(54, 24, 7, 0.26);
+    margin: 10px; 
+    border-radius: 12px;
+    border: solid 0.4px rgb(251, 249, 249);
+}
+.active{
+    background: #a2e8f6ea;
+    transform: scale(1.3);
+    border-radius: 15px;
+    padding: 1px;
+    box-shadow: 1px 1px 13px rgba(34, 14, 2, 0.614);
+}
+.nevi i{
+    padding: 0px 10px;
+   
+  
+}
+.spara{
+    color: #edd6d6;
+    position: relative;
+    top: -100px;
+    margin-left: 15px;
+    z-index: 10;
+}
+.spara h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

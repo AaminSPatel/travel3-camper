@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background:#302d53;
+}
+header{
+    background: transparent;
+    width: 100%;
+    height: 80px;
+}
+.head1{
+    height:80px;
+    width: 30%;
+    float: left;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head1 h2{
+    width:30px;
+    background: #291616;
+    
+}
+
+.head2{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.head2 ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.head2 li{
+    list-style: none;
+    margin-right: 40px;
+}
+.head2 .acc{
+    margin-left:100px ;
+}
+.main{
+    background-image :linear-gradient(rgba(133, 133, 136, 0) 80%,rgba(25, 26, 25, 0.99) ) ,url('../img/baloon2.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main1{
+  height: 100%;
+  width: 100%;
+   display: flex;
+   z-index: 2;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.main1 .small{
+    font-size: 12px;
+    color: orange;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.991);
+    font-family: Arial, Helvetica, sans-serif;
+    background: #00000018;
+}
+.main1 .big{
+    font-size: 20px;
+    color: antiquewhite;
+    background: #00000018;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.991);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main1 .link{
+    margin-top: 15px;
+}
+.link{
+    transition: 0.4s;
+    height: 50px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e6c419;
+    text-decoration: none;
+    color: rgb(18, 17, 17);
+    box-shadow: 0px 0px 9px black;
+    border-radius: 2px;
+    font-size: 16px;
+   
+}
+.link:hover{
+    box-shadow: 0px 0px 9px rgb(169, 34, 34);
+    font-size: 18px;
+}
+.about{
+    height: auto;
+    width: 100%;
+    color:aliceblue;
+    box-shadow: 0px -10px 14px black;
+    padding-top: 50px;
+}
+.abt1,.abt2,.abt3{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+.para-abt{
+    height: 100%;
+    width: 50%;
+    padding-left: 12%;
+    float: left;
+    
+}
+.para-img{
+   height: 100%;
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.abt-img{
+     border-radius: 175px 0 0 175px;
+    
+}
+.abt2 img{
+    border-radius:0 175px  175px 0;
+}
+.small-abt{
+    font-size: 16px;
+    color: orange;
+    text-shadow: 0 0 3px rgb(249, 246, 246);
+}
+.big-abt{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para-abt .para{
+    font-size: medium;
+    line-height: 30px;
+    width: 80%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.link-abt{
+    color: antiquewhite;
+   
+    text-decoration: none;
+}
+.part3{
+    height: 800px;
+    width: 100%;
+    color: azure;
+   
+}
+.coro1{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coro11{
+    height:200px;
+    width: 50%;
+    padding-left:12%;
+    padding-top: 50px;
+}
+.coro12{
+    padding-left: 30px;
+}
+.coro2 .slider{
+    height: 600px;
+   
+}
+.slider .slide{
+    margin-top: -100px;
+}
+.part4{
+    height: 500px;
+    width: 100%;
+   
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.feature1{
+    height:150px ;
+  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feature1 p{
+    width: 70%;
+    margin-bottom: 10px;
+}
+.feature2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.feature21{
+    height: 100%;
+    width: 33%;
+    padding-left:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feature21 .number{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px 0;
+}
+.feature21 .fa{
+    height: 100px;
+    width: 100%;
+    margin-right: 20px 0; 
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+.headi{
+    font-size: larger;
+    text-shadow: 0px 0px 6px rgb(140, 94, 94);
+    margin-bottom: 30px;
+}
+.feature-para{
+   min-width:50%;
+    max-width: 80%;
+    height: 100px;
+}
+.part5{
+    height: 400px;
+    width: 100%;
+    transform: perspective(20px);
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: background 1.9s;
+    background-size: cover;
+    background-position: center;
+}
+.part5-head{
+    text-shadow: 1px 1px 10px rgb(3, 3, 3);
+    background: rgba(0, 0, 0, 0.012);
+}
+.para-5{
+    text-shadow: 1px 1px 10px rgb(13, 12, 12);
+    background: rgba(0, 0, 0, 0.023);
+}
+
+.part5-link{
+    margin-top:30px ;
+}
+
+footer{
+    height: 300px;
+    width: 100%;
+    background: #000;
+    color: aliceblue;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.foot1{
+    width: 33%;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.foot2,.foot3,.foot4{
+    width: 22%;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+.foot1 h2{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.foot1 img{
+    border-radius: 10px;
+    filter: drop-shadow(0 0 13px rgb(18, 183, 234));
+    margin-bottom: 30px;
+}
+#email{
+    height: 20px;
+    width: 70%;
+    border:none;
+    border-bottom: 1px white solid;
+    background:transparent;
+    font-size: 18px;
+    transition: 0.5s;
+    padding: 4px 10px;
+}
+#email:hover{
+    border-top: 1px solid white;
+}
+.foot2 li{
+    list-style: none;
+    margin-top: 10px;
+}
+#submit{
+    background: transparent;
+    color: rgb(245, 242, 242);
+    border: none;
+    margin-left: -30px;
+    width: 30px;
+    font-size: 22px;
+}
